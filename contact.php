@@ -6,7 +6,7 @@
       <input id="name" type="text" name="name" placeholder="Ex : Jean Dupont"><br>
     <label for="email">Email : </label>
       <input id="email" type="email" name="email" placeholder="Ex : jean.dupont@gmail.com"><br>
-    <label for="subject">Sujet : </label>
+    <label for="subject">Objet : </label>
       <input id="subject" type="text" name="subject" placeholder="Ex : Films"><br>
     <label for="message">Message : </label>
     <textarea id="message" name="message" placeholder="Message..."></textarea><br>
