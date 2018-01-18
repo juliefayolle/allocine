@@ -1,0 +1,224 @@
+/* --------------BODY--------------*/
+body {
+  margin:0;
+  background-image: url("/images/background.png");
+  font-family: 'Acme', sans-serif;
+}
+.align-center {
+  text-align: center;
+}
+/* --------------HEADER--------------*/
+header {
+  background-color: #4e4545;
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+header h1 {
+  color: white;
+  margin-left: 30px;
+  margin-top: 32px;
+  font-family: 'Acme', sans-serif;
+}
+header img {
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+header a {
+  font-family: 'Acme', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+header p {
+  font-family: 'Acme', sans-serif;
+  font-size: 12px;
+  color: white;
+  margin-left: 70%;
+}
+
+/* --------------FORM CONNEXION ADMIN--------------*/
+.connect {
+  font-family: 'Acme', sans-serif;
+  display: block;
+  text-align: center;
+}
+.connect input {
+  margin-bottom: 10px;
+}
+/* --------------NAVBAR--------------*/
+.navbar {
+  font-family: 'Acme', sans-serif;
+}
+.navbar ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.navbar li {
+  float: left;
+  margin-left: 15px;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #4e4545;
+  border-top: 2px solid #bbb;
+  border-right: 2px solid #bbb;
+}
+.navbar li a:active {
+  background-color: #4e4545;
+  border-top: 0.5px solid #bbb;
+}
+
+/*---------------CAROUSSEL------------*/
+.container-fluid {
+  background: #FFFFFF;
+  margin: 50px;
+  padding: 30px 40px 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+  background: #f9f9f9;
+  margin: -30px -40px 4px;
+  padding: 20px 40px;
+  border-top: 4px solid #ccc;
+  color: #999;
+  text-transform: uppercase;
+  }
+.page-header h3 {
+  line-height: 0.88rem;
+  color: #000;
+}
+.dernier-film li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.dernier-film p {
+  color: #615E5E;
+  margin-top: 0;
+}
+.dernier-film h3 {
+  margin-bottom: 0;
+}
+.dernier-film li a {
+  display: block;
+}
+/*----------------LISTE FILMS USERS----------------*/
+.liste-film li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 15%;
+}
+.liste-film p {
+  color: #615E5E;
+  margin-top: 0;
+}
+.liste-film h3 {
+  margin-bottom: 0;
+  height: 50px;
+}
+.liste-film li a {
+  display: block;
+}
+/*-------FORMULAIRE DE CONTACT--------*/
+.contact input, textarea{
+  font-style: italic;
+  margin: 5px;
+}
+.contact label {
+  display: block;
+  width: 150px;
+  float: left;
+}
+.contact {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+}
+.envoyer {
+  float: right;
+}
+/*-------LISTE FILM ADMIN--------*/
+.table {
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-family: 'Sarala', sans-serif;
+}
+.table thead {
+  background-color: #111;
+  letter-spacing: 0.5px;
+  color: white;
+}
+.table tr {
+  margin-top: 200px;
+}
+.icon {
+  text-align: center;
+}
+.icon a {
+  text-decoration: none;
+  color: black;
+}
+.fa {
+  margin: 5px;
+}
+/*------PAGE AJOUT FILM------*/
+.ajouter input, textarea{
+  font-style: italic;
+  margin: 5px;
+}
+.ajouter label {
+  display: block;
+  width: 150px;
+  float: left;
+}
+.ajouter {
+  width: 450px;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+}
+
+/*-------PAGE FILM--------*/
+
+.left {
+  margin-top: 30px;
+  float: left;
+  width: 20%;
+}
+.right {
+  margin-top: 30px;
+  float: right;
+  width: 80%;
+}
+.right p {
+  width: 80%;
+}
+.grey {
+  color: grey;
+}
