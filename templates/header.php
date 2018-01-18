@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Allo ciné</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?v=1">
     <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
   </head>
 

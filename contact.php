@@ -10,7 +10,7 @@
       <input id="subject" type="text" name="subject" placeholder="Ex : Films"><br>
     <label for="message">Message : </label>
     <textarea id="message" name="message" placeholder="Message..."></textarea><br>
-    <input class="envoyer" type="submit" name="envoyer" value="Envoyer" width="100px">
+    <input class="envoyer" type="submit" name="envoyer" value="Envoyer message" width="100px">
   </form>
 </fieldset>
 
